@@ -24,7 +24,7 @@ After merging the PR and syncing to main, you can start a run of this workflow i
 gh aw run daily-test-improver
 ```
 
-To run continuously (at most one instance running at a time and sending a trigger every 3 minutes), use:
+To run continuously during the workflow's activity period (at most one instance running at a time, triggering every 3 minutes), use:
 
 ```bash
 gh aw run daily-test-improver --repeat 180
